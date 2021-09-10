@@ -1,0 +1,101 @@
+@font-face {
+	font-family:"Emblema One";
+	src: url(./EmblemaOne-Regular.woff),
+	url(./EmblemaOne-Regular.ttf);
+}
+header{
+	height: 350px;
+	background-image: url(images/TopBackground.jpg);
+	background-repeat: no-repeat;
+	background-color: #060606;
+	background-position: right;
+	color: white;
+	margin-top: 0px;
+	line-height: normal;
+}
+header h1{
+	font-size: xx-large;
+	font-weight: normal;
+	padding-top: 100px;
+	padding-left: 40px;
+}
+.name{
+	font-style: italic;
+	font-weight: bold;
+}
+header p{
+	font-size: small;
+	font-weight: normal;
+	padding-left: 40px;
+	padding-right: 360px;
+	line-height: 1.4;
+}
+
+.MyPic{
+	border-style: ridge;
+	border-width: thick;
+	border-color: #4541bf;
+	border-radius: 15px;
+	margin: 50px 30px 60px 20px;
+	float: left;
+}
+body{
+	margin-top: 0px;
+}
+#SelfIntroduction{
+	margin: 90px 20px 20px 400px;
+}
+
+#SelfIntroduction p{
+	margin-left: 10px;
+	line-height: 1.6;
+	color: #95A5A6;
+}
+.TimeLine{
+	margin-left: 40px;
+	padding-left: 40px;
+	line-height: 1.8;
+	color: #34495E;
+}
+.Event{
+	font-weight: bold;
+}
+#AboutMe{
+	clear: right;
+	margin: 60px 30px 50px 30px;
+	line-height: 1.6;
+	padding: 20px;
+	border: dashed medium #2E4053;
+	border-radius: 10px;
+	background-color: #F2F3F4;
+	box-shadow: 4px 6px 4px #bbbbbc;
+}
+.Ramos{
+	float: right;
+}
+.Ramos img{
+	width: 400px;
+	height: 600px;
+}
+#AboutMe h1{
+	border-bottom: solid;
+	font-family: "Emblema One";
+}
+#AboutMyResearch{
+	clear: left;
+	margin: 60px 30px 50px 30px;
+	padding: 20px;
+	line-height: 1.6;
+	border: dashed medium #2E4053;
+	border-radius: 10px;
+	background-color: #F2F3F4;
+	box-shadow: 4px 6px 4px #bbbbbc;
+}
+#AboutMyResearch h1{
+	border-bottom: solid;
+	font-family: "Emblema One";
+}
+a:hover{
+	background-color: #7FB3D5;
+	color: #060606;
+}

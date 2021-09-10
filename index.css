@@ -1,0 +1,129 @@
+@font-face {
+	font-family:"Emblema One";
+	src: url(fonts/EmblemaOne-Regular.woff),
+	url(fonts/EmblemaOne-Regular.ttf);
+}
+@font-face {
+	font-family:"Maritime";
+	src: url(fonts/MaritimeSansbold.ttf);
+}
+@font-face {
+	font-family:"YuGoth";
+	src: url(fonts/YuGothR.ttc);
+}
+@font-face {
+	font-family:"RobotoItalic";
+	src: url(fonts/Roboto-BoldItalic.ttf);
+}
+@font-face {
+	font-family:"RobotoRegular";
+	src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family:"Quicksand";
+	src: url(fonts/Quicksand.ttf);
+}
+body{
+	margin: 0px;
+}
+header{
+	height: 350px;
+	background-image: url(images/TopBackground.jpg);
+	background-repeat: no-repeat;
+	background-color: #060606;
+	background-position: right;
+	color: white;
+	margin-top: 0px;
+	line-height: normal;
+	font-family: "Quicksand",verdana,sans-serif;
+}
+header h1{
+	font-size: xxx-large;
+	font-weight: normal;
+	padding-top: 100px;
+	padding-left: 150px;
+}
+.name{
+	font-weight: bolder;
+}
+header p{
+	font-size: small;
+	font-weight: normal;
+	padding-left: 150px;
+	padding-right: 780px;
+	line-height: 1.6;
+}
+
+.MyPic{
+	border-style: ridge;
+	border-width: thick;
+	border-color: #4541bf;
+	border-radius: 15px;
+	margin: 50px 30px 60px 60px;
+	float: left;
+}
+
+#SelfIntroduction{
+	margin: 90px 60px 20px 400px;
+	font-family: "Quicksand",verdana,sans-serif;
+}
+
+#SelfIntroduction p{
+	font-family: "Quicksand";
+	margin-left: 10px;
+	line-height: 1.6;
+	color: #070d5e;
+}
+.TimeLine{
+	margin-left: 40px;
+	padding-left: 80px;
+	line-height: 1.8;
+	color: #34495E;
+}
+.Datetime{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Event{
+	font-weight: bold;
+}
+#AboutMe{
+	font-family: "Quicksand";
+	clear: right;
+	margin: 60px 60px 50px 60px;
+	line-height: 1.6;
+	padding: 20px;
+	border: dashed medium #2E4053;
+	border-radius: 10px;
+	background-color: #F2F3F4;
+	box-shadow: 4px 6px 4px #bbbbbc;
+}
+.Ramos{
+	float: right;
+}
+.Ramos img{
+	width: 400px;
+	height: 600px;
+}
+#AboutMe h1{
+	border-bottom: solid;
+	font-family: "Emblema One";
+}
+#AboutMyResearch{
+	font-family: "Quicksand";
+	clear: left;
+	margin: 60px 60px 50px 60px;
+	padding: 20px;
+	line-height: 1.6;
+	border: dashed medium #2E4053;
+	border-radius: 10px;
+	background-color: #F2F3F4;
+	box-shadow: 4px 6px 4px #bbbbbc;
+}
+#AboutMyResearch h1{
+	border-bottom: solid;
+	font-family: "Emblema One";
+}
+a:hover{
+	background-color: #7FB3D5;
+	color: #060606;
+}
